@@ -5,8 +5,8 @@ in the process of mapping images to 2d coordinates for vizualization
 
 # instructions
 
-create virtual env in python and activate
-pip install -r requirements.txt
+create virtual env in python and activate //
+pip install -r requirements.txt //
 python detect.py --weights yolov7-tiny.pt --conf 0.25 --img-size 640 --source <file_location_of_sports_video> --view-img 
 
 
