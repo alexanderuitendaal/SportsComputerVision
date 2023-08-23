@@ -163,6 +163,12 @@ def detect(save_img=False):
     print(f'Done. ({time.time() - t0:.3f}s)')
 
 
+
+# todo apparently unsafe, remove later
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', nargs='+', type=str, default='yolov7.pt', help='model.pt path(s)')
