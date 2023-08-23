@@ -2,3 +2,4 @@
 
 
 
+# Todo add GIT LFS or other filesystem to facilitate testing code by running on field hockey games
